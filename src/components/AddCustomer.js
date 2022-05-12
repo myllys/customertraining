@@ -51,7 +51,7 @@ export default function Addcustomer(props) {
           <TextField
             autoFocus
             margin="dense"
-            label="Firstname"
+            label="First Name"
             name="firstname"
             value={customer.firstname}
             onChange={e => handleInputChange(e)}
@@ -59,7 +59,7 @@ export default function Addcustomer(props) {
           />
           <TextField
             margin="dense"
-            label="Lastname"
+            label="Last Name"
             name="lastname"
             value={customer.lastname}
             onChange={e => handleInputChange(e)}
@@ -67,7 +67,7 @@ export default function Addcustomer(props) {
           />
           <TextField
             margin="dense"
-            label="Streetaddress"
+            label="Street Address"
             name="streetaddress"
             value={customer.streetaddress}
             onChange={e => handleInputChange(e)}
