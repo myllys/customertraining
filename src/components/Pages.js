@@ -1,3 +1,6 @@
+// Reactrouter vaihtui app.js appbar:iin kun oli aluksi ongelmia tajuta että ongelma olikin viallisessa tietokannassa ja eikä pages.js koodissa. 
+// https://customerrest.herokuapp.com/reset
+
 import React from 'react';
 import { HashRouter } from 'react-router-dom';
 import { Routes ,Route } from 'react-router-dom';
