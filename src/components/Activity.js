@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import {BarChart, Bar, XAxis, YAxis} from 'recharts';
 import lodash from "lodash";
 
@@ -24,7 +24,7 @@ export default function Activity() {
     return (
         <div>
             <BarChart width={1160} height={400} data={chart}>
-                <YAxis label={{value: 'Duration (Minutes)', angle: 90, position: 'insideLeft'}}/>
+                <YAxis label={{value: 'Duration (Minutes)', angle: -90, position: 'insideLeft'}}/>
                 <Bar dataKey="totalamount" fill="#FF0000"/>
                 <XAxis dataKey="activity"/>
             </BarChart>
