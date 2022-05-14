@@ -28,7 +28,7 @@ export default function DiscreteSlider(props) {
   return (
     <div className={classes.root}>
       <div className={classes.margin} />
-      <Typography id="discrete-slider-small-steps" gutterBottom>
+      <Typography id="discrete-slider" gutterBottom>
         Duration (min)
       </Typography>
       <Slider
@@ -38,7 +38,7 @@ export default function DiscreteSlider(props) {
         name="duration"
         onChange={handleSlider}
         getAriaValueText={valuetext}
-        aria-labelledby="discrete-slider-small-steps"
+        aria-labelledby="discrete-slider"
         step={15}
         marks
         min={15}

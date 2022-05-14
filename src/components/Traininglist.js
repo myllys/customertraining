@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { AgGridReact } from 'ag-grid-react';
+import Button from '@material-ui/core/Button';
 import moment from 'moment';
 import 'ag-grid-community/dist/styles/ag-grid.css';
 import 'ag-grid-community/dist/styles/ag-theme-material.css';
 import Snackbar from '@material-ui/core/Snackbar';
-import Button from '@material-ui/core/Button';
 
 export default function Traininglist() {
 
@@ -23,9 +23,6 @@ export default function Traininglist() {
         .then(data => setTrainings(data))
         .catch(err => console.error(err))
     }
-
-
-	//const deleteUrl = "https://customerrest.herokuapp.com/api/trainings";
 
 
     const deleteTraining = (id) => {

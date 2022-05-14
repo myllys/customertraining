@@ -3,7 +3,6 @@ import { HashRouter } from 'react-router-dom';
 import { Routes ,Route } from 'react-router-dom';
   import Customerlist from './Customerlist';
   import Traininglist from './Traininglist';
-  import Navigation from './Navigation';
 
 
   const Pages = () => {
