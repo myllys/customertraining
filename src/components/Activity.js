@@ -24,7 +24,7 @@ export default function Activity() {
     return (
         <div>
             <BarChart width={1160} height={400} data={chart}>
-                <YAxis label={{value: 'Minutes', angle: 90, position: 'insideLeft'}}/>
+                <YAxis label={{value: 'Duration (Minutes)', angle: 90, position: 'insideLeft'}}/>
                 <Bar dataKey="totalamount" fill="#FF0000"/>
                 <XAxis dataKey="activity"/>
             </BarChart>
